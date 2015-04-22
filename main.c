@@ -3,18 +3,37 @@
 #include <string.h>
 
 // Definisci le costanti
-
+#define N 3
+#define MAX_STRLEN 30
 // Definisci il tipo di dato struct s_studente
-
+struct s_studente {
+char nome[MAX_STRLEN+1];
+char cognome[MAX_STRLEN+1];
+unsigned int eta;
+char classe[MAX_STRLEN+1];
+};
 // Definisci studente come struct s_studente
-
+typedef struct s_studente studente;
 
 int main(int argc, char** argv) {
     // Dichiara le variabili locali
+    FILE *puntafile;
+     int i;
+    studente studenti[N];
     
-    // Codice per l'inserimento, da parte dell'utente, dei dati in un array
-    
-    // Codice per la scrittura dell'elenco su file
-    
-    return (EXIT_SUCCESS);
+puntafile=fopen("elenco.dat", "wb");
+for (i=0;i<N;i++){
+printf("Studente %d:\n", i+1);
+printf("Nome: ");
+scanf("%s", studenti[i].nome);
+printf("Cognome: ");
+scanf("%s", studenti[i].cognome);
+printf("Eta': ");
+scanf("%d", &studenti[i].eta);
+printf("Classe: ");
+scanf("%s", studenti[i].classe);
+}
+fwrite(&studenti,sizeof(studenti),1,puntafile);
+fclose(puntafile);
+return (EXIT_SUCCESS);
 }

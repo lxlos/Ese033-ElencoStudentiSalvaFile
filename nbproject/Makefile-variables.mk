@@ -7,21 +7,21 @@ CND_BASEDIR=`pwd`
 CND_BUILDDIR=build
 CND_DISTDIR=dist
 # Debug configuration
-CND_PLATFORM_Debug=Cygwin-Windows
-CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=ese033-elencostudentisalvafile
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/ese033-elencostudentisalvafile
-CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=ese033-elencostudentisalvafile.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/ese033-elencostudentisalvafile.tar
+CND_PLATFORM_Debug=Cygwin_4.x_1-Windows
+CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x_1-Windows
+CND_ARTIFACT_NAME_Debug=ese033
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x_1-Windows/ese033
+CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x_1-Windows/package
+CND_PACKAGE_NAME_Debug=ese033.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x_1-Windows/package/ese033.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=ese033-elencostudentisalvafile
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/ese033-elencostudentisalvafile
+CND_ARTIFACT_NAME_Release=ese033
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/ese033
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=ese033-elencostudentisalvafile.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/ese033-elencostudentisalvafile.tar
+CND_PACKAGE_NAME_Release=ese033.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/ese033.tar
 #
 # include compiler specific variables
 #
